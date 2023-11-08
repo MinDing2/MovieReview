@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-beans",
+    "version": "5.3.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.22.jar",
+          "url": "spring-beans-5.3.22.jar",
+          "size": 699011,
+          "sha512": "c7ae00ed34ac16fe8ae27c055896b9c2bd24ad61a08d49d25830efcb09bc5057b77bf21481ceebe63ee6f2fb70e067ea4fa4f5c926d1c1ecd396ff67a9bad14e",
+          "sha256": "4adff173a6f68ffc5a5333c8c8a37d10740b0cc124f9aafaed88a3a8ca431ca4",
+          "sha1": "866c2022b5fef05b1702f4a07cfa5598660ce08a",
+          "md5": "254c6d03b5b6164328329a188267291f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-beans-5.3.22.jar",
+          "url": "spring-beans-5.3.22.jar",
+          "size": 699011,
+          "sha512": "c7ae00ed34ac16fe8ae27c055896b9c2bd24ad61a08d49d25830efcb09bc5057b77bf21481ceebe63ee6f2fb70e067ea4fa4f5c926d1c1ecd396ff67a9bad14e",
+          "sha256": "4adff173a6f68ffc5a5333c8c8a37d10740b0cc124f9aafaed88a3a8ca431ca4",
+          "sha1": "866c2022b5fef05b1702f4a07cfa5598660ce08a",
+          "md5": "254c6d03b5b6164328329a188267291f"
+        }
+      ]
+    }
+  ]
+}

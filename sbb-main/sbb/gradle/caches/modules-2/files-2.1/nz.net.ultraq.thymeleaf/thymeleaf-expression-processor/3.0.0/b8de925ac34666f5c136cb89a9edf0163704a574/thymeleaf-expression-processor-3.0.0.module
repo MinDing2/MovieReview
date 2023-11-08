@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "nz.net.ultraq.thymeleaf",
+    "module": "thymeleaf-expression-processor",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.1",
+      "buildId": "7dpruplfz5ejrk6xdbbfl2tro4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thymeleaf-expression-processor-3.0.0.jar",
+          "url": "thymeleaf-expression-processor-3.0.0.jar",
+          "size": 3408,
+          "sha512": "f6d81d428c0941bc121128caea9dde15472538453b23b9fe53a21aa63928e53860d43584999b2ed4f7b498d63215bf5d001ea89bfd7c0f7038f195bb9a4e3ea6",
+          "sha256": "ba9229295c53de4f30f773633777e21ab66a4e254c160f027f5a7bed0bf8b355",
+          "sha1": "a9ec91287cdcdaa9f8c4bdcb19e0edeecd5dc23d",
+          "md5": "b3832c66b8bab70b85fb71cee13ddacc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.0.12.RELEASE"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thymeleaf-expression-processor-3.0.0.jar",
+          "url": "thymeleaf-expression-processor-3.0.0.jar",
+          "size": 3408,
+          "sha512": "f6d81d428c0941bc121128caea9dde15472538453b23b9fe53a21aa63928e53860d43584999b2ed4f7b498d63215bf5d001ea89bfd7c0f7038f195bb9a4e3ea6",
+          "sha256": "ba9229295c53de4f30f773633777e21ab66a4e254c160f027f5a7bed0bf8b355",
+          "sha1": "a9ec91287cdcdaa9f8c4bdcb19e0edeecd5dc23d",
+          "md5": "b3832c66b8bab70b85fb71cee13ddacc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thymeleaf-expression-processor-3.0.0-javadoc.jar",
+          "url": "thymeleaf-expression-processor-3.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "d802de8c0ff6b4ffcbd6e2d42e5faa234d87adf1503339e502502d78a0fed43baefae760bd3878bc39e297840639c0b5ac0a9d21ab9a7b233e6e4bad2dd6fba2",
+          "sha256": "bece963c719ea6c3905b103967b0f34f0c9029f1a488d8df7a94472ac37cc99e",
+          "sha1": "bad01f436f73272053bd0d42040373c81d898619",
+          "md5": "0724ebd1e7413aebc38a6d9af0079527"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thymeleaf-expression-processor-3.0.0-sources.jar",
+          "url": "thymeleaf-expression-processor-3.0.0-sources.jar",
+          "size": 4037,
+          "sha512": "3687e7443f2a57da1f3ab1d08cc2f90a172d483acd0711abbab24c3f7328d9edea9242693b64c2624b64e22d68ce8a0274df7458024250378235fb42b98e6272",
+          "sha256": "b780c5c8b6e288057a19bea8df59379cf14cdc56078b58da807b95a3302c35d6",
+          "sha1": "488a7c9e0769df4de15f2cd345f1ba9e0daa5dab",
+          "md5": "35d4e252423d229b17ced04835c7df75"
+        }
+      ]
+    }
+  ]
+}

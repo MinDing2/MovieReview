@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-aop",
+    "version": "2.7.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.2",
+      "buildId": "zn6xqxn44ncgdbozihl4cdadiy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "5.3.22"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3.jar",
+          "url": "spring-boot-starter-aop-2.7.3.jar",
+          "size": 4772,
+          "sha512": "acaee6dbac69818c329bef27b7fbc8cded7a3a9fb9b389700c2a83f0bf5554820b035afa7a3836b8d417e37042be36d5b65425f8a24cd68ed6c6d1341e8475a8",
+          "sha256": "a4d54afee8860a0ee0c437d5757fc9b47c71a5a0aa3925e585f981d79f73e943",
+          "sha1": "b2806bdfae4cff6b82a174a68984a4cedd2d83f5",
+          "md5": "116bd0d65ac976dd52a3018e88a5c871"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "5.3.22"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3.jar",
+          "url": "spring-boot-starter-aop-2.7.3.jar",
+          "size": 4772,
+          "sha512": "acaee6dbac69818c329bef27b7fbc8cded7a3a9fb9b389700c2a83f0bf5554820b035afa7a3836b8d417e37042be36d5b65425f8a24cd68ed6c6d1341e8475a8",
+          "sha256": "a4d54afee8860a0ee0c437d5757fc9b47c71a5a0aa3925e585f981d79f73e943",
+          "sha1": "b2806bdfae4cff6b82a174a68984a4cedd2d83f5",
+          "md5": "116bd0d65ac976dd52a3018e88a5c871"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3.jar",
+          "url": "spring-boot-starter-aop-2.7.3.jar",
+          "size": 4772,
+          "sha512": "acaee6dbac69818c329bef27b7fbc8cded7a3a9fb9b389700c2a83f0bf5554820b035afa7a3836b8d417e37042be36d5b65425f8a24cd68ed6c6d1341e8475a8",
+          "sha256": "a4d54afee8860a0ee0c437d5757fc9b47c71a5a0aa3925e585f981d79f73e943",
+          "sha1": "b2806bdfae4cff6b82a174a68984a4cedd2d83f5",
+          "md5": "116bd0d65ac976dd52a3018e88a5c871"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-starter-aop-maven-optional",
+          "version": "2.7.3"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3.jar",
+          "url": "spring-boot-starter-aop-2.7.3.jar",
+          "size": 4772,
+          "sha512": "acaee6dbac69818c329bef27b7fbc8cded7a3a9fb9b389700c2a83f0bf5554820b035afa7a3836b8d417e37042be36d5b65425f8a24cd68ed6c6d1341e8475a8",
+          "sha256": "a4d54afee8860a0ee0c437d5757fc9b47c71a5a0aa3925e585f981d79f73e943",
+          "sha1": "b2806bdfae4cff6b82a174a68984a4cedd2d83f5",
+          "md5": "116bd0d65ac976dd52a3018e88a5c871"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-starter-aop-maven-optional",
+          "version": "2.7.3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3-javadoc.jar",
+          "url": "spring-boot-starter-aop-2.7.3-javadoc.jar",
+          "size": 4743,
+          "sha512": "39f6de2cf8c6e53d94199cd295c3d08b0b4b250360560be6b6e707ebd47d617e700787c7777aa56c445030770079dc7355e7ab22ff4fce20ccb6783eb6694b28",
+          "sha256": "13ad2b77b248f8fa43f4f56d1201c99474a433fe7acfa628c427c2da553d2dff",
+          "sha1": "0dc4d2701e9d6ce6ae07102f1322009ae809bdc9",
+          "md5": "35d2eeb442566b0591a4b18b7bb11334"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-aop-2.7.3-sources.jar",
+          "url": "spring-boot-starter-aop-2.7.3-sources.jar",
+          "size": 4741,
+          "sha512": "ab5abf3a92e999e77a5b8d30c4fc3b21dbdcf1f0af1f40020e33d1f2ba646dbb27ff70c3aada9208c97eb5fe8bc85ec759447b0e7de46bb9481d0f2a57fbd76a",
+          "sha256": "a97e6d80c68bac914cbebc19300b4e5b75cd2b07b19f4eed846723c704b0212f",
+          "sha1": "941741994f2bbfac5240c62778dde8a4ac8acafb",
+          "md5": "27f19060379a4a89647464539c35404f"
+        }
+      ]
+    }
+  ]
+}

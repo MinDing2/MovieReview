@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-devtools",
+    "version": "2.3.4.RELEASE",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ozvmturbfbehjjvszcfxel53ra"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.4.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.4.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.3.4.RELEASE.jar",
+          "url": "spring-boot-devtools-2.3.4.RELEASE.jar",
+          "size": 223103,
+          "sha512": "a250d0d4cf41e2f590f9126668e1793c9f064b42c585a81a350a5a6f415dd93eca74a5ea6d273340accc9a82316812a21ad4ef13612a535806a9f9e3a7b468df",
+          "sha256": "3d8c237e4eca9eb16991d64c959778d25fa575d6e7d99d269a927d92f0358d71",
+          "sha1": "c904a412e16d5f5bf4399008e4683eeff21e61bf",
+          "md5": "ad379d96151ccd63f71f6ee568a1d68d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.4.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.4.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.3.4.RELEASE.jar",
+          "url": "spring-boot-devtools-2.3.4.RELEASE.jar",
+          "size": 223103,
+          "sha512": "a250d0d4cf41e2f590f9126668e1793c9f064b42c585a81a350a5a6f415dd93eca74a5ea6d273340accc9a82316812a21ad4ef13612a535806a9f9e3a7b468df",
+          "sha256": "3d8c237e4eca9eb16991d64c959778d25fa575d6e7d99d269a927d92f0358d71",
+          "sha1": "c904a412e16d5f5bf4399008e4683eeff21e61bf",
+          "md5": "ad379d96151ccd63f71f6ee568a1d68d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.3.4.RELEASE-javadoc.jar",
+          "url": "spring-boot-devtools-2.3.4.RELEASE-javadoc.jar",
+          "size": 332429,
+          "sha512": "019fcf18ce7c978ef95bba0e602a97394c6d69ee6ce021fb104ff197de844142bff74f85e0f7cc4088c2c5476630d916855b7ff72a64149e4ccd99ed10d700bf",
+          "sha256": "4691457bc8d8a4af1ba094fff89c6838159ed83ffecdfd7a0a09112d60a7eae4",
+          "sha1": "12eff48e4bde190fef34693b70b8d4d62e29aead",
+          "md5": "d3a571a4cbd396dedecc510c4a383cbf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-devtools-2.3.4.RELEASE-sources.jar",
+          "url": "spring-boot-devtools-2.3.4.RELEASE-sources.jar",
+          "size": 156320,
+          "sha512": "7875547c7997e57baafe8fceeba7024cccd4a01d1b306eef8a25db3ad9e8aae35066ef7b4418e6e9e60dc154fd948d5a464c24a0f34291f3bec6ec68ffc00771",
+          "sha256": "249cb706c13f2a77225c89d18e98b538e2a164cc96e66516e2302588f4287a46",
+          "sha1": "0cffb643b72a3ce67a17089a42ccc94a123f7623",
+          "md5": "1688f3b81181de9629467523be76f35f"
+        }
+      ]
+    }
+  ]
+}
